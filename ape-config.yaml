@@ -1,0 +1,11 @@
+name: test-token
+
+ethereum:
+  local:
+    default_provider: foundry
+
+test:
+  coverage:
+    reports:
+      terminal:
+        verbose: True
