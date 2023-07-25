@@ -9,3 +9,5 @@ test:
     reports:
       terminal:
         verbose: True
+    exclude:
+      - method_name: DEBUG_*
